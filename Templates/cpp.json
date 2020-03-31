@@ -1,0 +1,58 @@
+{
+  "Directories": [
+    {
+      "dir_name": "src",
+      "Files": [
+        {
+          "file_name": "main.cpp",
+          "content": "/*\n** EPITECH PROJECT, 2019\n** EpiProjectGen\n** File description:\n** main\n*/\n\n#include <iostream>\n\nint32_t main(int32_t ac, char const *av[])\n{\n\t(void)ac;\n\t(void)av;\n\tstd::cout << \"Hello world!\" << std::endl;\n\treturn 0;\n}"
+        }
+      ]
+    },
+    {
+      "dir_name": "include",
+      "Files": []
+    },
+    {
+      "dir_name": "tests",
+      "Files": [
+        {
+          "file_name": "test.cpp",
+          "content": "/*\n** EPITECH PROJECT, 2019\n** EpiProjectGen\n** File description:\n** test\n*/\n\n#include <criterion/criterion.h>\n\nTest(test, test)\n{\n\tcr_assert_eq(0, 0);\n}"
+        }
+      ]
+    },
+    {
+      "dir_name": "build",
+      "Files": [
+        {
+          "file_name": "date.release",
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "Files": [
+    {
+      "file_name": "README.md",
+      "content": ""
+    }
+  ],
+  "Makefile": {
+    "generate": true,
+    "CXX": "g++",
+    "personalize": {
+      "isPersonalize": false,
+      "CXXFLAGS": "",
+      "LD_FLAGS": "",
+      "LD_TEST_FLAGS": "",
+      "DEBUG_FLAGS": ""
+    },
+    "CSFML": "-lcsfml-graphics -lcsfml-window -lcsfml-audio",
+    "ncurses": "-lncurses"
+  },
+  "copy_from": [],
+  "gitignore": [],
+  "YML": true,
+  "Doxygen": true
+}

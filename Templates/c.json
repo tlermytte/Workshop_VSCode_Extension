@@ -1,0 +1,56 @@
+{
+  "Directories": [
+    {
+      "dir_name": "src",
+      "Files": [
+        {
+          "file_name": "main.c",
+          "content": "/*\n** EPITECH PROJECT, 2019\n** EpiProjectGen\n** File description:\n** main\n*/\n\n#include <stdint.h> \n\n int32_t main(int32_t ac, char const *av[])\n{\n\t(void)ac;\n\t(void)av;\n\treturn 0;\n}"
+        }
+      ]
+    },
+    {
+      "dir_name": "include",
+      "Files": []
+    },
+    {
+      "dir_name": "tests",
+      "Files": [
+        {
+          "file_name": "test.c",
+          "content": "/*\n** EPITECH PROJECT, 2019\n** EpiProjectGen\n** File description:\n** test\n*/\n\n#include <criterion/criterion.h>\n\nTest(test, test)\n{\n\tcr_assert_eq(0, 0);\n}"
+        }
+      ]
+    },
+    {
+      "dir_name": "build",
+      "Files": [
+        {
+          "file_name": "date.release",
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "Files": [
+    {
+      "file_name": "README.md",
+      "content": ""
+    }
+  ],
+  "Makefile": {
+    "generate": true,
+    "CXX": "gcc",
+    "personalize": {
+      "isPersonalize": false,
+      "CXXFLAGS": "",
+      "LD_FLAGS": "",
+      "LD_TEST_FLAGS": "",
+      "DEBUG_FLAGS": ""
+    }
+  },
+  "copy_from": ["/home/Downloads/BlackJack.pdf"],
+  "gitignore": [],
+  "YML": true,
+  "Doxygen": true
+}

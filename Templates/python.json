@@ -1,0 +1,13 @@
+{
+  "Directories": [],
+  "Files": [
+    {
+      "file_name": "project.py",
+      "content": "#!/usr/bin/env python3\n\ndef main():\n\tprint(\"hello world !\")\n\nif __name__ == \"__main__\":\n\tmain()"
+    }
+  ],
+  "copy_from": [],
+  "gitignore": [],
+  "YML": true,
+  "Doxygen": true
+}

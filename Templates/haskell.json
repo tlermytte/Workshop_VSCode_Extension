@@ -1,0 +1,24 @@
+{
+  "Directories": [],
+  "Files": [],
+  "Makefile": {
+    "generate": true,
+    "CXX": "",
+    "personalize": {
+      "isPersonalize": false,
+      "CXXFLAGS": "",
+      "LD_FLAGS": "",
+      "LD_TEST_FLAGS": "",
+      "DEBUG_FLAGS": ""
+    }
+  },
+  "copy_from": [],
+  "gitignore": ["app/"],
+  "YML": {
+    "generate": true,
+    "file_name": "package",
+    "language": "haskell",
+    "sudo": false
+  },
+  "Doxygen": false
+}
