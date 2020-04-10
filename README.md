@@ -48,7 +48,7 @@ Choisissez "New Extension (Typescript)" qui génère une extension **Hello World
 
 Vous pouvez tester cette extension grâce au débogueur de VSCode (F5) qui vous ouvrira une nouvelle instance de VSCode avec l'extension intégrer.
 
-**Ctrl + Alt + P** pour ouvrir le pannau de commande puis lancer la commande de l'extension en tapant "hello world".
+**Ctrl + Maj + P** pour ouvrir le pannau de commande puis lancer la commande de l'extension en tapant "hello world".
 
 Cette extension vous marque "Hello World" dans un encart en bas à droite.
 
